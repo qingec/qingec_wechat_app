@@ -1,0 +1,174 @@
+/**user.wxss**/
+page{
+  height:100vh;
+  }
+/* van-button> button:first-child{
+  background-color: #1296db;
+} */
+.user_head {
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+  background-color: #fff;
+  position: absolute;
+}
+
+.user_bg,.user_body{
+  width: 100vw;
+  height: 20vh;
+}
+/* 服务 */
+.user_service{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 2vw;
+}
+.user_service_img{
+  width: 4.5vw;
+  height: 4.5vw;
+  position: static;
+  margin-left: 1vw;
+  margin-top: 2vw;
+  display: block;
+}
+.user_service_text{
+  font-size: 2.5vw;
+  color: white;
+  position: static;
+  display: block;
+  margin-left: 1vw;
+  margin-top: 1vw;
+}
+
+/* 设置 */
+.user_set{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 2vw;
+}
+.user_set_img{
+  width: 4.5vw;
+  height: 4.5vw;
+  position: static;
+  margin-right: 1vw;
+  margin-top: 2vw;
+  display: block;
+}
+.user_set_text{
+  font-size: 2.5vw;
+  color: white;
+  position: static;
+  display: block;
+  margin-right: 1vw;
+  margin-top: 1vw;
+}
+
+/* 头像 */
+.user_portrait{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin:auto;
+  left:0rpx;
+  right:0rpx;
+  top:0rpx;
+  width:  20vh;
+  height: 20vh;
+}
+
+.user_portrait_img{
+  width: 12vh;
+  height: 12vh;
+  margin-top: 3vh;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: static;
+  display: block;
+  border-radius: 6vh;
+  background-color: white;
+}
+.user_portrait_text{
+  font-size: 2vh;
+  color: white;
+  position: static;
+  display: block;
+  text-align: center;
+}
+.div_title > view:first-child{
+  height: 5vh;
+  line-height: 5vh;
+  border-bottom:1rpx solid rgba(0, 0, 0, 0.26);
+  font-size: 3vw;
+  text-indent: 2vw;
+}
+.user_div > view:first-child{
+    height: 20vh;
+    width: 100vw;
+   border-bottom:1rpx solid rgba(0, 0, 0, 0.26);
+}
+.div_body van-col> view:first-child{
+  height: 15vh;
+  text-align: center;
+}
+.div_body_out_border van-col> view:first-child{
+ border-right:1rpx solid rgba(0, 0, 0, 0.26);
+}
+.div_body_text_1> view:first-child{
+  font-size: 3vw;
+  height: 5vh;
+  line-height: 5vh;
+}
+
+.div_body_text_2> view:first-child,.div_body_button_1> view:first-child {
+  font-size: 2.5vw;
+   height: 5vh;
+   line-height: 5vh;
+}
+
+.div_body_text_3> view:first-child{
+  font-size: 2.5vw;
+   height: 5vh;
+   line-height: 5vh;
+  color: rgba(0, 0, 0, 0.568);
+}
+.div_body_button_charge> button:first-child{
+  font-size: 2.5vw;
+   height: 3vh;
+   width: 10vw;
+   line-height: 3.0vh;
+}
+
+.div_body_image_1> view:first-child{
+  height: 10vh;
+}
+
+.user_icon{
+  width: 6vh;
+  height: 6vh;
+  margin-top: 2vh;
+}
+
+.user_div_login{
+  width: 100vw;
+  height: 18vh;
+  position: fixed;
+  left:0rpx;
+  right:0rpx;
+  bottom:0rpx;
+}
+
+.user_div_login>view:first-child{
+   width: 100vw;
+   height: 18vh;
+   line-height: 18vh;
+}
+
+.div_body_button_login> button:first-child{
+  font-size: 4vw;
+   height: 6vh;
+   width: 90vw;
+   line-height: 6vh;
+}

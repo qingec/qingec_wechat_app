@@ -1,0 +1,36 @@
+/* pages/car/car.wxss */
+
+
+.addCar{
+  border: 1rpx solid rgba(0, 0, 0, 0.315);
+  border-radius: 8px;
+  width: 90%;
+  margin-left: 15px;
+  margin-top: 10px;
+  line-height: 200px;
+  text-align: center;
+  /* margin: auto; 
+  display:column; 
+  align-items:center;
+  justify-content:center;  */
+}
+
+.text_car{
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+}
+
+.img_car{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  margin-top: 12px;
+}
+
+.img,.text{
+  height: 50px;
+  line-height: 50px;
+}

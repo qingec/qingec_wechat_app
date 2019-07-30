@@ -1,0 +1,54 @@
+/* pages/carInfo/carInfo.wxss */
+
+
+
+.car_save{
+  width: 100%;
+  display: block;
+  position: absolute;
+  text-align: center;
+  top: 90vh;
+
+}
+.save>button:first-child{
+  border-radius: 10px;
+  width: 90%;
+}
+.car_switch_view{
+  height: 45px;
+}
+
+
+.need_padding{
+  padding: 0 10px;
+  height: 35px;
+}
+
+.car_li_field input:first-child{
+  text-align: left;
+  height: 35px;
+  line-height: 35px;
+  display: inline-block;
+}
+
+van-cell>view:first-child{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 10px;
+}
+.cell_input{
+  position: absolute;
+  left: 46vw;
+  width: 100%;
+  top: 6px;
+}
+
+van-icon>view:first-child{
+  margin-right: 12px;
+
+}
+
+van-cell>view:first-child>.van-cell__value{
+  text-align:left;
+
+}

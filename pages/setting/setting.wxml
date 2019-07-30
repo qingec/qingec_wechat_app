@@ -1,0 +1,13 @@
+<van-cell icon="" is-link>
+  <view slot="title">
+  <image class='cell_img' src='/image/cheliang.png'></image>
+    <view class="van-cell-text">车牌识别充设置</view>
+  </view>
+</van-cell>
+
+<van-cell icon="" is-link>
+  <view slot="title">
+  <image class='cell_img' src='/image/yijianfankui.png'></image>
+    <view class="van-cell-text">意见反馈</view>
+  </view>
+</van-cell>

@@ -1,0 +1,19 @@
+<!--pages/questions/questions.wxml-->
+<van-row class='order_row'>
+    <van-col span="24">
+      <van-tabs>
+       <van-tab title="我的提问">
+        <view style='text-align: center;color:rgba(164, 164, 168, 0.856);'>期待您的提问</view>
+       </van-tab>
+       <van-tab title="我的回答">
+        <view style='text-align: center;color:rgba(164, 164, 168, 0.856);'>期待您的回答</view>
+       </van-tab>
+       <van-tab title="邀请我的">
+        <view style='text-align: center;color:rgba(164, 164, 168, 0.856);'>没有邀请您的</view>
+       </van-tab>
+      </van-tabs>
+    </van-col>
+ 
+   
+</van-row>
+

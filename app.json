@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/map/index",
+    "pages/user/user",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/station/station",
+    "pages/records/records",
+    "pages/collection/collection",
+    "pages/recharge/recharge",
+    "pages/order/order",
+    "pages/car/car",
+    "pages/carInfo/carInfo",
+    "pages/comment/comment",
+    "pages/feedback/feedback",
+    "pages/questions/questions",
+    "pages/chargeCard/chargeCard",
+    "pages/stationdetail/station_detail",
+    "pages/piledetail/pile_detail",
+    "pages/timeprice/timeprice",
+    "pages/feedbackInfo/feedbackInfo",
+    "pages/login/login",
+    "pages/phonelogin/phonelogin",
+    "pages/servicecenter/servicecenter",
+    "pages/setting/setting",
+    "pages/charging/charging"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "位置信息将用于展示可为你提供服务的桩群"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1296db",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "van-button": "/dist/button/index",
+    "van-row": "/dist/row/index",
+    "van-col": "/dist/col/index",
+    "van-field": "/dist/field/index",
+    "van-switch-cell": "/dist/switch-cell/index",
+    "van-popup": "/dist/popup/index",
+    "van-datetime-picker": "/dist/datetime-picker/index",
+    "van-search": "/dist/search/index",
+    "van-tab": "/dist/tab/index",
+    "van-tabs": "/dist/tabs/index",
+    "van-notice-bar": "dist/notice-bar/index",
+    "van-tag": "/dist/tag/index",
+    "van-cell": "/dist/cell/index",
+    "van-cell-group": "/dist/cell-group/index",
+    "van-icon": "/dist/icon/index"
+  }
+}

@@ -1,0 +1,14 @@
+<!--pages/chargeCard/chargeCard.wxml-->
+<van-row>
+  <van-col span='19'>
+    <view  class='edit_view'>
+     <van-field  value="{{ username }}" label="充电卡号:" placeholder="请输入充电卡号"/>
+    </view>
+  </van-col>
+  <van-col span='5'>
+  <view  class='edit_view' style='height: 35px;line-height: 35px;padding:0;'>
+    <van-button type="info" bindtap='feddback' size="mini">绑定</van-button>
+  </view>
+  </van-col>
+  
+</van-row>

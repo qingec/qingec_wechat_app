@@ -1,0 +1,58 @@
+<import src ="/template/template.wxml"/>
+
+<van-row>
+<van-notice-bar
+  left-icon="/image/laba.png"
+  text="充电时请认清充电桩标识。大巴专用桩乘用车禁止使用。请注意随身行李，照看好您的子女。"
+/>
+</van-row>
+<van-row>
+  <van-col span="6" class="station_img_col">
+     <image class='station_img' src='/image/qingneng.png'></image>
+  </van-col>
+
+   <van-col span="16">
+    <view class='station_name'>
+      <text>思源清能充电站</text>
+    </view>
+    <view>
+    <van-tag color="#f2826a" plain>自营</van-tag>
+    <van-tag color="#7232dd" plain>免费停车</van-tag>
+    <van-tag color="#1296db" plain>对外开放</van-tag>
+    <van-tag color="#1296db" plain>测试</van-tag>
+    <van-tag color="#1296db" plain>测试</van-tag>
+    <van-tag color="#1296db" plain>测试</van-tag>
+    </view>
+    <view></view>
+   </van-col>
+
+
+    <van-col span="2">
+    <view class='station_shoucang_view'>
+    <image class='station_shoucang_img' src='/image/shoucang_no.png'></image>
+    </view>
+    </van-col>
+</van-row>
+
+<van-row>
+  <text class='fast_ico'>快</text>
+  <text class='fast_num'>空闲9/共10</text>
+  <text class='slow_ico'>慢</text>
+  <text class='slow_num'>空闲0/共10</text>
+</van-row>
+
+<van-row>
+<van-tabs swipeable animated active="{{ active }}" bind:change="onChangeTag">
+  <van-tab title="电站">
+   <template is="tab_station_detail"/>
+  </van-tab>
+  <van-tab title="终端（*）">
+    <template is="tab_pile_detail"/>
+  </van-tab>
+  <van-tab title="评论（*）">
+    <template is=""/>
+  </van-tab>
+</van-tabs>
+</van-row>
+
+<van-row></van-row>

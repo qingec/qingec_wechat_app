@@ -1,0 +1,36 @@
+<!--pages/recharge/recharge.wxml-->
+<view>
+  <view class='recharge_word'>
+    充值金额
+  </view>
+  <view class='recharge_outside'>
+    <van-row>
+      <van-col span="12">
+        <van-button  plain  type="primary">10</van-button>
+      </van-col>
+      <van-col span="12">
+          <van-button plain  type="primary">50</van-button>
+      </van-col>
+    </van-row>
+
+    <van-row>
+      <van-col span="12">
+        <van-button  plain  type="primary">100</van-button>
+      </van-col>
+      <van-col span="12">
+        <van-button plain  type="primary">200</van-button>
+      </van-col>
+    </van-row>
+  </view>
+
+  <view  class='recharge_choose'>
+    <van-cell-group>
+      <van-field value="{{ username }}" label="金额(元)" placeholder="请输入金额"/>
+    </van-cell-group>
+  </view>
+
+  <view class="">
+    <button   class="btn-charge">立即充值</button>
+  </view>
+
+</view>

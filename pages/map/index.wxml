@@ -1,0 +1,36 @@
+<!--index.wxml-->
+<van-row class='map_search_div'>
+ <van-col span='21'>
+    <van-search value="{{ value }}" placeholder="请输入关键词"></van-search>
+ </van-col>
+ <van-col span='3'>
+  <cover-image bindtap="stationList" class='map_lists_img' src='/image/map_lists.png'></cover-image>
+    <!-- <cover-image src='/image/map_ding.png'></cover-image> -->
+ </van-col>
+</van-row>
+
+<van-row class='map_div'>
+  <van-col span="24">
+   <map id="yueMap" latitude="{{latitude}}" longitude="{{longitude}}" scale="{{scale}}" controls="{{controls}}"  markers="{{markers}}" show-location bindmarkertap="bindmarkertap" bindcontroltap="controltap"></map>
+ </van-col>
+</van-row>
+   
+  <!-- <cover-view class='map_fixed'>
+      <cover-image src='/image/fixed.png'></cover-image>
+  </cover-view>
+
+  <cover-view class='map_collect'>
+      <cover-image src='/image/collect.png'></cover-image>
+  </cover-view>
+
+  <cover-view class='map_history_charging'>
+      <cover-image src='/image/history_charging.png'></cover-image>
+  </cover-view>
+
+  <cover-view class='map_personal'>
+      <cover-image src='/image/personal.png'></cover-image>
+  </cover-view>
+
+  <cover-view class='map_scan_round'>
+      <cover-image src='/image/scan_round.png'></cover-image>
+  </cover-view> -->

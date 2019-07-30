@@ -1,0 +1,138 @@
+<!--pages/charging/charging.wxml-->
+<!-- <template name="tab_pile_detail_list"> -->
+  <van-row>
+    <view class='pile_list_view'>
+      <!-- 遍历pile -->
+      <van-row class="pile_list_row_vm">
+        <van-col class="pile_list_col_vm" span="5">
+          <view class='pile_num'>
+            <text style='font: bold'>101</text>
+            <text style='font-size:11px'> 号</text>
+          </view>
+        </van-col>
+
+        <van-col span="14">
+          <view class='pile_info_view'>
+            <view>
+              <text class='pile_info_title'>站名称</text>
+              <text class='pile_info_value'>思源清能</text>
+            </view>
+            <view>
+              <text class='pile_info_title'>桩号</text>
+              <text class='pile_info_value'>3101120137102</text>
+            </view>
+            <view>
+              <text class='pile_info_title'>终端类型</text>
+              <text class='pile_info_value'>直流快充</text>
+            </view>
+            <view>
+              <text class='pile_info_title'>已充电量</text>
+              <text class='pile_info_value'>0 kwh</text>
+            </view>
+            <view>
+              <text class='pile_info_title'>已充时长</text>
+              <text class='pile_info_value'>0:0:60秒</text>
+            </view>
+            <view>
+              <text class='pile_info_title'>已充费用</text>
+              <text class='pile_info_value'>0.52元</text>
+            </view>
+            <view>
+              <text class='pile_info_title'>充电电压</text>
+              <text class='pile_info_value'>520.2v</text>
+            </view>
+            <view>
+              <text class='pile_info_title'>充电电流</text>
+              <text class='pile_info_value'>6.6A</text>
+            </view>
+            <view>
+              <text class='pile_info_title'>剩余时长</text>
+              <text class='pile_info_value'>16分钟</text>
+            </view>
+            <view>
+              <text class='pile_info_title'>SOC</text>
+              <text class='pile_info_value'>66%</text>
+            </view>
+          </view>
+        </van-col>
+
+        <van-col class="pile_list_col_vm" span="5">
+            <view class='pile_end_view'>
+              <van-button size="small">停止充电</van-button>
+            </view>
+            <view class='pile_fresh_view'>
+              <van-button size="small">刷新</van-button>
+            </view>
+        </van-col>
+      </van-row>
+    </view>
+
+ <view class='pile_list_view'>
+      <!-- 遍历pile -->
+      <van-row class="pile_list_row_vm">
+        <van-col class="pile_list_col_vm" span="5">
+          <view class='pile_num'>
+            <text style='font: bold'>102</text>
+            <text style='font-size:11px'> 号</text>
+          </view>
+        </van-col>
+
+        <van-col span="14">
+          <view class='pile_info_view'>
+            <view>
+              <text class='pile_info_title'>站名称</text>
+              <text class='pile_info_value'>思源清能</text>
+            </view>
+            <view>
+              <text class='pile_info_title'>桩号</text>
+              <text class='pile_info_value'>3101120137102</text>
+            </view>
+            <view>
+              <text class='pile_info_title'>终端类型</text>
+              <text class='pile_info_value'>直流快充</text>
+            </view>
+            <view>
+              <text class='pile_info_title'>已充电量</text>
+              <text class='pile_info_value'>0 kwh</text>
+            </view>
+            <view>
+              <text class='pile_info_title'>已充时长</text>
+              <text class='pile_info_value'>0:0:60秒</text>
+            </view>
+            <view>
+              <text class='pile_info_title'>已充费用</text>
+              <text class='pile_info_value'>0.52元</text>
+            </view>
+            <view>
+              <text class='pile_info_title'>充电电压</text>
+              <text class='pile_info_value'>520.2v</text>
+            </view>
+            <view>
+              <text class='pile_info_title'>充电电流</text>
+              <text class='pile_info_value'>6.6A</text>
+            </view>
+            <view>
+              <text class='pile_info_title'>剩余时长</text>
+              <text class='pile_info_value'>16分钟</text>
+            </view>
+            <view>
+              <text class='pile_info_title'>SOC</text>
+              <text class='pile_info_value'>66%</text>
+            </view>
+          </view>
+        </van-col>
+
+        <van-col class="pile_list_col_vm" span="5">
+          <view class='pile_end_view'>
+            <van-button size="small" class='pile_end'>停止充电</van-button>
+          </view>
+          <view class='pile_fresh_view'>
+            <van-button size="small">刷新</van-button>
+          </view>
+        </van-col>
+      </van-row>
+    </view>
+
+
+  </van-row>
+<!-- </template> -->

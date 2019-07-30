@@ -1,0 +1,79 @@
+<!--pages/carInfo/carInfo.wxml-->
+<view>
+  <view>
+    <!-- <view class='car_type'>
+      <van-cell title="爱车车型" is-link value="选择车型后,可筛选适合车型的充电站" />
+    </view>
+
+    <view class='car_num'>
+      <van-cell title="车牌号码" is-link value="沪" arrow-direction="down"/>
+    </view>
+
+    <view class='car_year'>
+      <van-cell title="生产年份" is-link value="请选择爱车生产年份" bind:click="onClick"/>
+    </view>
+
+    <view class='car_li'>
+      <van-cell-group>
+        <van-field value="{{ message }}" placeholder="输入续航,剩余充满时间更精确"  label="续航里程(km)"/>
+      </van-cell-group>
+    </view>
+
+    <view class='car_switch_info'>
+      <van-switch-cell title="我要认证爱车" checked="{{ checked }}" bind:change="onChange"/>
+    </view>
+
+    <view>
+      <van-popup show="{{ show }}" position="bottom" overlay="{{ false }}" bind:close="onClose">
+        <van-datetime-picker type="date" value="currentDate"  bind:input="onInput" 
+          min-date="{{ minDate }}" formatter="{{ formatter }}"/>
+      </van-popup>
+
+    </view> -->
+
+    <van-cell value="选择车型后,可筛选适合车" is-link class='car_type_view'>
+        <view slot="title">
+          <view class="car_type need_padding">爱车车型</view>
+        </view>
+    </van-cell>
+    <van-cell value="沪" is-link arrow-direction="down" class='car_num_view'>
+        <view slot="title">
+          <view class="car_num need_padding">车牌号码</view>
+        </view>
+    </van-cell>
+    <van-cell value="请选择爱车生产年份" is-link bind:click="onClick" class='car_year_view'>
+        <view slot="title">
+          <view class="car_year need_padding">生产年份</view>  
+        </view>
+    </van-cell>
+
+    <van-popup show="{{ show }}" position="bottom" overlay="{{ false }}" bind:close="onClose">
+      <van-datetime-picker type="date" value="currentDate"  bindtap="onInput" 
+          min-date="{{ minDate }}" bind:cancel="oncCancel" formatter="{{ formatter }}"/>
+    </van-popup>
+
+    <van-cell >
+        <view slot="title">
+          <view class="car_li need_padding">
+            <view>续航里程(km)</view>
+            <view class='cell_input'><input placeholder='输入续航,剩余充满时间更精确'></input></view>
+          </view>
+        </view>
+    </van-cell>
+
+  <view class='car_switch_view'>
+    <!-- <van-cell class='car_switch_view'> -->
+        <view slot="title">
+          <view class="car_switch_info need_padding">
+            <van-switch-cell title="我要认证爱车" checked="{{ checked }}" bind:change="onChange"/>
+          </view>
+        </view>
+    <!-- </van-cell> -->
+  </view>
+
+    <view class='car_save'>
+      <van-button type="info" class='save'>保存</van-button>
+    </view>
+
+  </view>
+</view>

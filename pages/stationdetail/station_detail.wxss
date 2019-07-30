@@ -1,0 +1,67 @@
+@import'/template/template.wxss';
+.van-tabs__wrap{
+  height: 30px;
+}
+
+.station_img_col>view:first-child{
+  height: 75px;
+}
+
+.station_img{
+  height: 65px;
+  width: 65px;
+  display: inline-block;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: #000;
+}
+
+.station_shoucang_img{
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  margin: 0 10px 0 0;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+
+.station_name{
+  font-size: 14px;
+  margin: 5px 5px 0 5px;
+}
+
+van-tag{
+  margin: 5px 0 0 5px;
+}
+
+.station_shoucang_view{
+  height: 75px;
+  line-height: 75px;
+}
+
+.fast_ico{
+  display: inline-block;
+  background-color: rgba(255, 1, 43, 0.8);
+  color: #fff;
+  border-radius: 3px;
+  padding: 0 2px;
+  margin: 0 2px;
+  font-size: 12px;
+}
+.slow_ico{
+  display: inline-block;
+  background-color: rgba(39, 216, 113, 0.8);
+  color: #fff;
+  border-radius: 3px;
+  padding: 0 2px;
+  margin: 0 2px;
+  font-size: 12px;
+}
+
+.slow_num,.fast_num{
+  display: inline-block;
+  margin: 0 2px;
+  color: rgba(0, 0, 0, 0.26);
+  font-size: 10px;
+}
+

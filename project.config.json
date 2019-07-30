@@ -1,0 +1,195 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"nodeModules": true,
+		"autoAudits": false,
+		"checkInvalidKey": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.6.6",
+	"appid": "wx22041aea5dfc0a52",
+	"projectname": "qingyichong",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 20,
+			"list": [
+				{
+					"id": -1,
+					"name": "用户中心",
+					"pathName": "pages/user/user",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "站",
+					"pathName": "pages/station/station",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "首页",
+					"pathName": "pages/map/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "历史充电站",
+					"pathName": "pages/records/records",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "收藏",
+					"pathName": "pages/collection/collection",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "充值",
+					"pathName": "pages/recharge/recharge",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "订单",
+					"pathName": "pages/order/order",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "添加爱车",
+					"pathName": "pages/car/car",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "爱车信息",
+					"pathName": "pages/carInfo/carInfo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 9,
+					"name": "评论",
+					"pathName": "pages/comment/comment",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "反馈",
+					"pathName": "pages/feedback/feedback",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "问答",
+					"pathName": "pages/questions/questions",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "充电卡信息",
+					"pathName": "pages/chargeCard/chargeCard",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "桩",
+					"pathName": "pages/stationdetail/station_detail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "桩详情",
+					"pathName": "pages/piledetail/pile_detail",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "分是费率",
+					"pathName": "pages/timeprice/timeprice",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "反馈信息",
+					"pathName": "pages/feedbackInfo/feedbackInfo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "登录",
+					"pathName": "pages/login/login",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "手机号登录",
+					"pathName": "pages/phonelogin/phonelogin",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "客服中心",
+					"pathName": "pages/servicecenter/servicecenter",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "正在充电",
+					"pathName": "pages/charging/charging",
+					"scene": null
+				}
+			]
+		}
+	}
+}

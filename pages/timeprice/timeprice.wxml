@@ -1,0 +1,83 @@
+<view class='charge_price_view curr_time'>
+<van-row>
+  <view class='price_view'>
+    <text>1.2800</text>元/度（含服务费）
+  </view>
+
+  <view class='time_view'>
+    00:00-06:00
+  </view>
+  </van-row>
+<van-row>
+  <view class='price_detail_view'>
+    电费0.8000元/度，服务费0.4800元/度
+  </view>
+
+  <view class='j_view jfpg_view'>
+   尖
+  </view>
+  </van-row>
+</view>
+
+<view class='charge_price_view'>
+<van-row>
+  <view class='price_view'>
+    <text>1.2800</text>元/度（含服务费）
+  </view>
+
+  <view class='time_view'>
+    00:00-06:00
+  </view>
+  </van-row>
+<van-row>
+  <view class='price_detail_view'>
+    电费0.8000元/度，服务费0.4800元/度
+  </view>
+
+  <view class='f_view jfpg_view'>
+   峰
+  </view>
+  </van-row>
+</view>
+
+<view class='charge_price_view'>
+<van-row>
+  <view class='price_view'>
+    <text>1.2800</text>元/度（含服务费）
+  </view>
+
+  <view class='time_view'>
+    00:00-06:00
+  </view>
+  </van-row>
+<van-row>
+  <view class='price_detail_view'>
+    电费0.8000元/度，服务费0.4800元/度
+  </view>
+
+  <view class='p_view jfpg_view'>
+   平
+  </view>
+  </van-row>
+</view>
+
+<view class='charge_price_view'>
+<van-row>
+  <view class='price_view'>
+    <text>1.2800</text>元/度（含服务费）
+  </view>
+
+  <view class='time_view'>
+    00:00-06:00
+  </view>
+  </van-row>
+<van-row>
+  <view class='price_detail_view'>
+    电费0.8000元/度，服务费0.4800元/度
+  </view>
+
+  <view class='g_view jfpg_view'>
+   谷
+  </view>
+  </van-row>
+</view>

@@ -1,0 +1,10 @@
+/* pages/chargeCard/chargeCard.wxss */
+.edit_view{
+  margin-left: 10px;
+  display: table;
+  width: 90%;
+}
+
+van-button>button:first-child{
+  margin-bottom: 5px;
+}

@@ -1,0 +1,12 @@
+.van-cell-text{
+  padding-left: 5px;
+  display: inline-block;
+  font-size: 12px;
+}
+.cell_img{
+  padding-left: 10px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}

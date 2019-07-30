@@ -1,0 +1,466 @@
+<van-row class='map_search_div'>
+  <van-col span='21'>
+    <van-search value="{{ value }}" placeholder="请输入关键词"></van-search>
+  </van-col>
+  <van-col span='3'>
+    <!-- <cover-image class='map_lists_img' src='/image/map_lists.png'></cover-image> -->
+    <image class='map_lists_img' src='/image/map_ding.png'></image>
+  </van-col>
+</van-row>
+
+<van-row class='map_screen_div'>
+  <!-- 滑块 -->
+  <view class='scrollContainer_view'>
+    <scroll-view class='scrollContainer' scroll-x>
+      <button type='button' class='scrollContainer_button'>
+        精品站</button>
+      <button type='button' class='scrollContainer_button'>免费停车</button>
+      <button type='button' class='scrollContainer_button'>自营</button>
+      <button type='button' class='scrollContainer_button'>交流</button>
+      <button type='button' class='scrollContainer_button'>直流</button>
+      <button type='button' class='scrollContainer_button'>测试</button>
+      <button type='button' class='scrollContainer_button'>测试</button>
+      <button type='button' class='scrollContainer_button'>测试</button>
+      <button type='button' class='scrollContainer_button'>测试</button>
+      <button type='button' class='scrollContainer_button'>测试</button>
+    </scroll-view>
+  </view>
+  <!-- 排序 -->
+  <view class='scrollContainer_view_paixu'>
+    <text class='scrollContainer_text_paixu'>排序</text>
+    <image class='scrollContainer_img_paixu' src='/image/paixu.png'></image>
+  </view>
+  <!-- 筛选 -->
+  <view class='scrollContainer_view_shaixuan'>
+    <text class='scrollContainer_text_shaixuan'>筛选</text>
+    <image class='scrollContainer_img_shaixuan' src='/image/shaixuan.png'></image>
+  </view>
+</van-row>
+
+<van-row class='stations_div'>
+  <van-col span='24'>
+    <!-- <scroll-view class='scroll_station' scroll-y> -->
+    <!-- 站的div后台for循环 -->
+    <view bindtap="stationDetail">
+      <van-row class='scroll_station_row'>
+        <!-- 图片 -->
+        <van-col span='6' class="station_img_col">
+          <image class='station_img' src='/image/qingneng.png'></image>
+        </van-col>
+        <!-- 信息 -->
+        <van-col span='12' class="station_info_col">
+          <van-row>
+            <text style='font-size:12px'>上海思源电气充电桩</text>
+          </van-row>
+
+          <van-row>
+            <text style='font-size:11px'>当前1.2300元/度(含服务费)</text>
+          </van-row>
+
+          <van-row>
+            <text class='fast_ico' style='font-size:9px'>快9/10</text>
+            <text class='slow_ico' style='font-size:9px'>慢0/10</text>
+            <text style='font-size:10px'>最近充电10分钟前</text>
+          </van-row>
+        </van-col>
+        <!-- 距离 -->
+        <van-col span='6' class="station_info_col">
+          <van-row>
+          </van-row>
+
+          <van-row>
+          </van-row>
+
+          <van-row>
+            <text style='font-size:10px;color:rgba(0, 0, 0, 0.26)'>闵行区/6.6KM</text>
+          </van-row>
+        </van-col>
+      </van-row>
+    </view>
+    <van-row class='scroll_station_row'>
+      <!-- 图片 -->
+      <van-col span='6' class="station_img_col">
+        <image class='station_img' src='/image/qingneng.png'></image>
+      </van-col>
+      <!-- 信息 -->
+      <van-col span='12' class="station_info_col">
+        <van-row>
+          <text style='font-size:12px'>上海思源电气充电桩</text>
+        </van-row>
+
+        <van-row>
+          <text style='font-size:11px'>当前1.2300元/度(含服务费)</text>
+        </van-row>
+
+        <van-row>
+          <text class='fast_ico' style='font-size:9px'>快9/10</text>
+          <text class='slow_ico' style='font-size:9px'>慢0/10</text>
+          <text style='font-size:10px'>最近充电10分钟前</text>
+        </van-row>
+      </van-col>
+      <!-- 距离 -->
+      <van-col span='6' class="station_info_col">
+        <van-row>
+        </van-row>
+
+        <van-row>
+        </van-row>
+
+        <van-row>
+          <text style='font-size:10px;color:rgba(0, 0, 0, 0.26)'>闵行区/6.6KM</text>
+        </van-row>
+      </van-col>
+    </van-row>
+
+    <van-row class='scroll_station_row'>
+      <!-- 图片 -->
+      <van-col span='6' class="station_img_col">
+        <image class='station_img' src='/image/qingneng.png'></image>
+      </van-col>
+      <!-- 信息 -->
+      <van-col span='12' class="station_info_col">
+        <van-row>
+          <text style='font-size:12px'>上海思源电气充电桩</text>
+        </van-row>
+
+        <van-row>
+          <text style='font-size:11px'>当前1.2300元/度(含服务费)</text>
+        </van-row>
+
+        <van-row>
+          <text class='fast_ico' style='font-size:9px'>快9/10</text>
+          <text class='slow_ico' style='font-size:9px'>慢0/10</text>
+          <text style='font-size:10px'>最近充电10分钟前</text>
+        </van-row>
+      </van-col>
+      <!-- 距离 -->
+      <van-col span='6' class="station_info_col">
+        <van-row>
+        </van-row>
+
+        <van-row>
+        </van-row>
+
+        <van-row>
+          <text style='font-size:10px;color:rgba(0, 0, 0, 0.26)'>闵行区/6.6KM</text>
+        </van-row>
+      </van-col>
+    </van-row>
+
+    <van-row class='scroll_station_row'>
+      <!-- 图片 -->
+      <van-col span='6' class="station_img_col">
+        <image class='station_img' src='/image/qingneng.png'></image>
+      </van-col>
+      <!-- 信息 -->
+      <van-col span='12' class="station_info_col">
+        <van-row>
+          <text style='font-size:12px'>上海思源电气充电桩</text>
+        </van-row>
+
+        <van-row>
+          <text style='font-size:11px'>当前1.2300元/度(含服务费)</text>
+        </van-row>
+
+        <van-row>
+          <text class='fast_ico' style='font-size:9px'>快9/10</text>
+          <text class='slow_ico' style='font-size:9px'>慢0/10</text>
+          <text style='font-size:10px'>最近充电10分钟前</text>
+        </van-row>
+      </van-col>
+      <!-- 距离 -->
+      <van-col span='6' class="station_info_col">
+        <van-row>
+        </van-row>
+
+        <van-row>
+        </van-row>
+
+        <van-row>
+          <text style='font-size:10px;color:rgba(0, 0, 0, 0.26)'>闵行区/6.6KM</text>
+        </van-row>
+      </van-col>
+    </van-row>
+
+    <van-row class='scroll_station_row'>
+      <!-- 图片 -->
+      <van-col span='6' class="station_img_col">
+        <image class='station_img' src='/image/qingneng.png'></image>
+      </van-col>
+      <!-- 信息 -->
+      <van-col span='12' class="station_info_col">
+        <van-row>
+          <text style='font-size:12px'>上海思源电气充电桩</text>
+        </van-row>
+
+        <van-row>
+          <text style='font-size:11px'>当前1.2300元/度(含服务费)</text>
+        </van-row>
+
+        <van-row>
+          <text class='fast_ico' style='font-size:9px'>快9/10</text>
+          <text class='slow_ico' style='font-size:9px'>慢0/10</text>
+          <text style='font-size:10px'>最近充电10分钟前</text>
+        </van-row>
+      </van-col>
+      <!-- 距离 -->
+      <van-col span='6' class="station_info_col">
+        <van-row>
+        </van-row>
+
+        <van-row>
+        </van-row>
+
+        <van-row>
+          <text style='font-size:10px;color:rgba(0, 0, 0, 0.26)'>闵行区/6.6KM</text>
+        </van-row>
+      </van-col>
+    </van-row>
+
+    <van-row class='scroll_station_row'>
+      <!-- 图片 -->
+      <van-col span='6' class="station_img_col">
+        <image class='station_img' src='/image/qingneng.png'></image>
+      </van-col>
+      <!-- 信息 -->
+      <van-col span='12' class="station_info_col">
+        <van-row>
+          <text style='font-size:12px'>上海思源电气充电桩</text>
+        </van-row>
+
+        <van-row>
+          <text style='font-size:11px'>当前1.2300元/度(含服务费)</text>
+        </van-row>
+
+        <van-row>
+          <text class='fast_ico' style='font-size:9px'>快9/10</text>
+          <text class='slow_ico' style='font-size:9px'>慢0/10</text>
+          <text style='font-size:10px'>最近充电10分钟前</text>
+        </van-row>
+      </van-col>
+      <!-- 距离 -->
+      <van-col span='6' class="station_info_col">
+        <van-row>
+        </van-row>
+
+        <van-row>
+        </van-row>
+
+        <van-row>
+          <text style='font-size:10px;color:rgba(0, 0, 0, 0.26)'>闵行区/6.6KM</text>
+        </van-row>
+      </van-col>
+    </van-row>
+
+    <van-row class='scroll_station_row'>
+      <!-- 图片 -->
+      <van-col span='6' class="station_img_col">
+        <image class='station_img' src='/image/qingneng.png'></image>
+      </van-col>
+      <!-- 信息 -->
+      <van-col span='12' class="station_info_col">
+        <van-row>
+          <text style='font-size:12px'>上海思源电气充电桩</text>
+        </van-row>
+
+        <van-row>
+          <text style='font-size:11px'>当前1.2300元/度(含服务费)</text>
+        </van-row>
+
+        <van-row>
+          <text class='fast_ico' style='font-size:9px'>快9/10</text>
+          <text class='slow_ico' style='font-size:9px'>慢0/10</text>
+          <text style='font-size:10px'>最近充电10分钟前</text>
+        </van-row>
+      </van-col>
+      <!-- 距离 -->
+      <van-col span='6' class="station_info_col">
+        <van-row>
+        </van-row>
+
+        <van-row>
+        </van-row>
+
+        <van-row>
+          <text style='font-size:10px;color:rgba(0, 0, 0, 0.26)'>闵行区/6.6KM</text>
+        </van-row>
+      </van-col>
+    </van-row>
+
+    <van-row class='scroll_station_row'>
+      <!-- 图片 -->
+      <van-col span='6' class="station_img_col">
+        <image class='station_img' src='/image/qingneng.png'></image>
+      </van-col>
+      <!-- 信息 -->
+      <van-col span='12' class="station_info_col">
+        <van-row>
+          <text style='font-size:12px'>上海思源电气充电桩</text>
+        </van-row>
+
+        <van-row>
+          <text style='font-size:11px'>当前1.2300元/度(含服务费)</text>
+        </van-row>
+
+        <van-row>
+          <text class='fast_ico' style='font-size:9px'>快9/10</text>
+          <text class='slow_ico' style='font-size:9px'>慢0/10</text>
+          <text style='font-size:10px'>最近充电10分钟前</text>
+        </van-row>
+      </van-col>
+      <!-- 距离 -->
+      <van-col span='6' class="station_info_col">
+        <van-row>
+        </van-row>
+
+        <van-row>
+        </van-row>
+
+        <van-row>
+          <text style='font-size:10px;color:rgba(0, 0, 0, 0.26)'>闵行区/6.6KM</text>
+        </van-row>
+      </van-col>
+    </van-row>
+
+    <van-row class='scroll_station_row'>
+      <!-- 图片 -->
+      <van-col span='6' class="station_img_col">
+        <image class='station_img' src='/image/qingneng.png'></image>
+      </van-col>
+      <!-- 信息 -->
+      <van-col span='12' class="station_info_col">
+        <van-row>
+          <text style='font-size:12px'>上海思源电气充电桩</text>
+        </van-row>
+
+        <van-row>
+          <text style='font-size:11px'>当前1.2300元/度(含服务费)</text>
+        </van-row>
+
+        <van-row>
+          <text class='fast_ico' style='font-size:9px'>快9/10</text>
+          <text class='slow_ico' style='font-size:9px'>慢0/10</text>
+          <text style='font-size:10px'>最近充电10分钟前</text>
+        </van-row>
+      </van-col>
+      <!-- 距离 -->
+      <van-col span='6' class="station_info_col">
+        <van-row>
+        </van-row>
+
+        <van-row>
+        </van-row>
+
+        <van-row>
+          <text style='font-size:10px;color:rgba(0, 0, 0, 0.26)'>闵行区/6.6KM</text>
+        </van-row>
+      </van-col>
+    </van-row>
+
+    <van-row class='scroll_station_row'>
+      <!-- 图片 -->
+      <van-col span='6' class="station_img_col">
+        <image class='station_img' src='/image/qingneng.png'></image>
+      </van-col>
+      <!-- 信息 -->
+      <van-col span='12' class="station_info_col">
+        <van-row>
+          <text style='font-size:12px'>上海思源电气充电桩</text>
+        </van-row>
+
+        <van-row>
+          <text style='font-size:11px'>当前1.2300元/度(含服务费)</text>
+        </van-row>
+
+        <van-row>
+          <text class='fast_ico' style='font-size:9px'>快9/10</text>
+          <text class='slow_ico' style='font-size:9px'>慢0/10</text>
+          <text style='font-size:10px'>最近充电10分钟前</text>
+        </van-row>
+      </van-col>
+      <!-- 距离 -->
+      <van-col span='6' class="station_info_col">
+        <van-row>
+        </van-row>
+
+        <van-row>
+        </van-row>
+
+        <van-row>
+          <text style='font-size:10px;color:rgba(0, 0, 0, 0.26)'>闵行区/6.6KM</text>
+        </van-row>
+      </van-col>
+    </van-row>
+
+    <van-row class='scroll_station_row'>
+      <!-- 图片 -->
+      <van-col span='6' class="station_img_col">
+        <image class='station_img' src='/image/qingneng.png'></image>
+      </van-col>
+      <!-- 信息 -->
+      <van-col span='12' class="station_info_col">
+        <van-row>
+          <text style='font-size:12px'>上海思源电气充电桩</text>
+        </van-row>
+
+        <van-row>
+          <text style='font-size:11px'>当前1.2300元/度(含服务费)</text>
+        </van-row>
+
+        <van-row>
+          <text class='fast_ico' style='font-size:9px'>快9/10</text>
+          <text class='slow_ico' style='font-size:9px'>慢0/10</text>
+          <text style='font-size:10px'>最近充电10分钟前</text>
+        </van-row>
+      </van-col>
+      <!-- 距离 -->
+      <van-col span='6' class="station_info_col">
+        <van-row>
+        </van-row>
+
+        <van-row>
+        </van-row>
+
+        <van-row>
+          <text style='font-size:10px;color:rgba(0, 0, 0, 0.26)'>闵行区/6.6KM</text>
+        </van-row>
+      </van-col>
+    </van-row>
+
+    <van-row class='scroll_station_row'>
+      <!-- 图片 -->
+      <van-col span='6' class="station_img_col">
+        <image class='station_img' src='/image/qingneng.png'></image>
+      </van-col>
+      <!-- 信息 -->
+      <van-col span='12' class="station_info_col">
+        <van-row>
+          <text style='font-size:12px'>上海思源电气充电桩</text>
+        </van-row>
+
+        <van-row>
+          <text style='font-size:11px'>当前1.2300元/度(含服务费)</text>
+        </van-row>
+
+        <van-row>
+          <text class='fast_ico' style='font-size:9px'>快9/10</text>
+          <text class='slow_ico' style='font-size:9px'>慢0/10</text>
+          <text style='font-size:10px'>最近充电10分钟前</text>
+        </van-row>
+      </van-col>
+      <!-- 距离 -->
+      <van-col span='6' class="station_info_col">
+        <van-row>
+        </van-row>
+
+        <van-row>
+        </van-row>
+
+        <van-row>
+          <text style='font-size:10px;color:rgba(0, 0, 0, 0.26)'>闵行区/6.6KM</text>
+        </van-row>
+      </van-col>
+    </van-row>
+    <!-- </scroll-view> -->
+  </van-col>
+</van-row>

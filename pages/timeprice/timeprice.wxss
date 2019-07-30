@@ -1,0 +1,49 @@
+.charge_price_view{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+}
+
+.price_view{
+display: inline-block;
+font-size: 11px;
+margin: 10px;
+}
+.time_view{
+font-size: 11px;
+/* display: inline-block; */
+margin: 10px;
+float: right;
+}
+.price_detail_view{
+font-size: 10px;
+display: inline-block;
+color: rgba(0, 0, 0, 0.26);
+margin: 10px;
+}
+
+.jfpg_view{
+font-size: 15px;
+/* display: inline-block; */
+float: right;
+height: 20px;
+width: 20px;
+text-align: center;
+line-height: 20px;
+margin: 7px 10px 7px 0;
+color: #fff;
+border-radius: 3px;
+}
+.j_view{
+  background: linear-gradient(rgba(11, 255, 255, 0.3), rgb(0, 255, 255)); /* 标准的语法 */
+}
+.f_view{
+  background: linear-gradient(rgba(255, 178, 11, 0.3), rgb(255, 11, 11)); /* 标准的语法 */
+}
+.p_view{
+  background: linear-gradient(rgba(1, 5, 253, 0.3), rgb(0, 89, 253)); /* 标准的语法 */
+}
+.g_view{
+  background: linear-gradient(rgba(39, 255, 11, 0.3), rgb(11, 255, 84)); /* 标准的语法 */
+}
+.curr_time{
+  background: linear-gradient(rgba(11, 178, 255, 0.2), rgb(11, 198, 255));
+}

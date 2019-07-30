@@ -1,0 +1,30 @@
+<van-cell icon="" is-link>
+  <view slot="title">
+  <image class='cell_img' src='/image/changjianwenti.png'></image>
+    <view class="van-cell-text">常见问题</view>
+  </view>
+</van-cell>
+
+<van-cell icon="" is-link>
+  <view slot="title">
+  <image class='cell_img' src='/image/zaixiankefu.png'></image>
+    <view class="van-cell-text">在线客服</view>
+  </view>
+</van-cell>
+
+<van-cell icon="" is-link>
+  <view slot="title">
+  <image class='cell_img' src='/image/yijianfankui.png'></image>
+    <view class="van-cell-text">意见反馈</view>
+  </view>
+</van-cell>
+
+<van-cell icon="" is-link>
+  <view slot="title">
+  <image class='cell_img' src='/image/kefudianhua.png'></image>
+    <view class="van-cell-text">客服电话</view>
+  </view>
+  <view >
+    <view style=' text-align: right;font-size: 12px;'>66-66666</view>
+  </view>
+</van-cell>

@@ -1,0 +1,10 @@
+.login_btn{
+  text-align: center;
+}
+.div_body_button_login{
+  font-size: 4vw;
+   height: 6vh;
+   width: 90vw;
+   line-height: 6vh;
+   margin-top: 10px;
+}

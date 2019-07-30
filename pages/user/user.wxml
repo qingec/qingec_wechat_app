@@ -1,0 +1,141 @@
+<van-row class='user_div'>
+  <view class='user_head'>
+    <image class='user_bg' src='/image/back.jpg'></image>
+    <view class='user_service'>
+      <image bindtap='to_servicecenter' class='user_service_img' src='/image/service.png'></image>
+      <text bindtap='to_servicecenter' class="user_service_text">客服</text>
+    </view>
+
+    <view class='user_set'>
+      <image bindtap='to_setting'  class='user_set_img' src='/image/set.png'></image>
+      <text  bindtap='to_setting'  class="user_set_text">设置</text>
+    </view>
+
+    <view class='user_portrait'>
+      <image class='user_portrait_img' src=''></image>
+      <text class="user_portrait_text">号码</text>
+    </view>
+  </view>
+</van-row>
+<van-row class='user_div'>
+  <van-row class='div_title'>
+    我的钱包
+  </van-row>
+  <van-row>
+  <navigator url="/pages/recharge/recharge">
+    <view class='div_body div_body_out_border'>
+      <van-col span="8">
+        <van-row class="div_body_text_1">余额</van-row>
+        <van-row class="div_body_text_2">元</van-row>
+        <van-row class="div_body_button_1">
+          <van-button bindtap='recharge' type="info" size="mini" class='div_body_button_charge'>充值   </van-button>
+        </van-row>
+      </van-col>
+    </view>
+  </navigator>
+
+  <navigator url="/pages/chargeCard/chargeCard">
+    <view class='div_body div_body_out_border'>
+      <van-col span="8">
+        <van-row class="div_body_text_1">充电卡</van-row>
+        <van-row class="div_body_text_2">张</van-row>
+        <van-row class="div_body_text_3">张即将过期</van-row>
+      </van-col>
+    </view>
+  </navigator>
+
+    <view class='div_body'>
+      <van-col span="8">
+        <van-row class="div_body_text_1">积分</van-row>
+        <van-row class="div_body_text_2">分</van-row>
+        <van-row class="div_body_text_3">查看详情</van-row>
+      </van-col>
+    </view>
+  </van-row>
+</van-row>
+<van-row class='user_div'>
+  <van-row class='div_title'>
+    我的充电
+  </van-row>
+
+  <van-row>
+    <navigator url="/pages/order/order">
+      <view class='div_body div_body_out_border'>
+        <van-col span="8">
+          <van-row class="div_body_image_1">
+          <image class='user_icon' src='/image/dingdan.png'></image>
+          </van-row>
+          <van-row class=" div_body_text_1 ">我的订单</van-row>
+        </van-col>
+      </view>
+    </navigator>
+
+    <navigator url="/pages/car/car">
+      <view class='div_body div_body_out_border'>
+        <van-col span="8 ">
+          <van-row class="div_body_image_1">
+            <image class='user_icon' src='/image/cheliang.png'></image>
+          </van-row>
+          <van-row class="div_body_text_1">我的爱车</van-row>
+        </van-col>
+      </view>
+    </navigator>   
+
+    <navigator url="/pages/collection/collection">
+      <view class='div_body'>
+        <van-col span="8">
+          <van-row class="div_body_image_1">
+            <image class='user_icon' src='/image/shoucang.png'></image>
+          </van-row>
+          <van-row class="div_body_text_1">我的收藏</van-row>
+        </van-col>
+      </view>
+    </navigator>
+    </van-row>
+  </van-row>
+
+  <van-row class='user_div'>
+    <van-row class='div_title'>
+      我的社区
+    </van-row>
+    <van-row>
+
+    <navigator url="/pages/comment/comment">
+      <view class='div_body div_body_out_border'>
+        <van-col span="8">
+          <van-row class="div_body_image_1">
+           <image class='user_icon' src='/image/pinglun.png'></image>
+           </van-row>
+          <van-row class=" div_body_text_1 ">我的评论</van-row>
+        </van-col>
+      </view>
+    </navigator>
+
+    <navigator url="/pages/feedback/feedback">
+      <view class='div_body div_body_out_border'>
+      <van-col span="8 ">
+        <van-row class="div_body_image_1">
+          <image class='user_icon' src='/image/fankui.png'></image>
+        </van-row>
+        <van-row class="div_body_text_1">我的反馈</van-row>
+      </van-col>
+      </view>
+    </navigator>
+
+    <navigator url="/pages/questions/questions">
+      <view class='div_body'>
+        <van-col span="8">
+          <van-row class="div_body_image_1">
+           <image class='user_icon' src='/image/wenda.png'></image>
+           </van-row>
+          <van-row class=" div_body_text_1 ">我的问答</van-row>
+      </van-col>
+      </view>
+    </navigator>
+  </van-row>
+</van-row>
+<van-row class="div_body user_div_login">
+<van-col span="24" class="div_body_login">
+<van-button type="info" bind:click="to_login" size="normal" class='div_body_button_login'>注册/登录</van-button>
+</van-col>
+</van-row>

@@ -1,0 +1,161 @@
+
+.map_search_div>view:first-child{
+  width: 100vw;
+  height:30px;
+  position: fixed;
+}
+
+.map_search_div van-col>view:first-child{
+  height:30px;
+}
+
+.map_search_div van-col> view:first-child {
+   background: #1296db;
+}
+
+.map_lists_img{
+  width: 25px;
+  height: 25px;
+}
+
+
+.scrollContainer {
+  width: 100%;
+  height: 24px;
+  white-space: nowrap;
+}
+.recommandItemBtn{
+display: inline-block;
+width: 80px;
+height: 24px;
+}
+.scrollContainer_button{
+  display:inline-block;
+  height:18px;
+  width: auto;
+  font-size:10px;
+  line-height:18px;
+  margin: 3px 2px 3px 2px;
+  padding:0px 5px 0px 5px;
+  border-radius: 8px;
+  color:#1296db;
+  background-color:#fff;
+  border:1px solid #1296db;
+  /* box-shadow: 0 0 1px #1296db; */
+  
+}
+
+.map_screen_div>view:first-child{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.26);
+  background-color: #fff;
+   position: fixed;
+   top: 30px;
+   width: 100%;
+   height: 24px;
+   line-height: 24px;
+   vertical-align: middle;
+}
+.scrollContainer_view{
+  height: 24px;
+  width: 76%;
+  display: inline-block;
+}
+.scrollContainer_view_paixu,.scrollContainer_view_shaixuan{
+  height: 24px;
+  line-height: 24px;
+  width: 12%;
+  float: right;
+  text-align: center;
+  display: table;
+}
+.scrollContainer_img_paixu,.scrollContainer_img_shaixuan{
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  display:  inline-block;
+  vertical-align: middle;
+}
+.scrollContainer_text_paixu,.scrollContainer_text_shaixuan{
+  font-size: 10px;
+  height: 16px;
+  line-height: 16px;
+  display: table-cell;
+  vertical-align: middle;
+} 
+.stations_div,.stations_div>view:first-child{
+  width: 100vw;
+  height: auto;
+}
+.stations_div>view:first-child{
+  position: absolute;
+  top:55px;
+  z-index: -1;
+}
+
+.scroll_station{
+  width: 100%;
+  height: 100%;
+  white-space: normal;
+}
+.scroll_station_row>view:first-child{
+  height: 75px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+}
+.scroll_station_row van-col van-row>view:first-child{
+  height: 25px;
+}
+
+.station_img{
+  height: 65px;
+  width: 65px;
+  display: inline-block;
+  margin: 5px 0px;
+  border-radius: 5px;
+  background-color: #000;
+}
+.station_img_col>view:first-child{
+  height: 75px;
+}
+.station_img_col{
+  text-align: center;
+ 
+}
+.fast_ico{
+  display: inline-block;
+  background-color: rgba(255, 1, 43, 0.8);
+  color: #fff;
+  border-radius: 3px;
+  padding: 0 2px;
+  margin: 0 2px;
+}
+.slow_ico{
+  display: inline-block;
+  background-color: rgba(39, 216, 113, 0.8);
+  color: #fff;
+  border-radius: 3px;
+  padding: 0 2px;
+  margin: 0 2px;
+}
+
+van-search > view:first-child {
+  height: 30px;
+  }
+van-search > view:first-child>view:first-child{
+   border-radius: 15rpx;
+}
+
+van-search van-cell>view:first-child{
+  line-height: 25px;
+  height: 25px;
+}
+
+van-search .van-cell__left-icon-wrap,van-search .van-cell__value,van-search .van-field__body{
+  height: 25px;
+}
+van-search .van-cell__left-icon-wrap,van-search .van-cell__value
+,van-search view.van-field__body,van-search input.van-field__input {
+ height: 25px;
+ min-height: 25px;
+ line-height: 25px;
+}

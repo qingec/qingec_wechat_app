@@ -1,0 +1,29 @@
+<!--pages/comment/comment.wxml-->
+<view class='comments'> 
+  <view class='body'>
+    <view style='text-align: center'>
+      没有更多了>>
+    </view>
+  </view>
+  <!-- <van-row >
+
+    <view class='a'>
+      <van-col span='8'>
+        <text>-----------</text>
+      </van-col>
+    </view>
+  
+    <view>
+      <van-col span='8'>
+        没有更多了
+      </van-col>
+    </view>
+
+    <view>
+      <van-col span='8'>
+        <text>-----------</text>
+      </van-col>
+    </view>
+  </van-row> -->
+
+</view>

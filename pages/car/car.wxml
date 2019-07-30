@@ -1,0 +1,10 @@
+<!--pages/car/car.wxml-->
+
+<view class='addCar'>
+  <view class='img'>
+   <image class='img_car' src='/image/add_car.png' bindtap='imgCar'> </image>
+  </view>
+  <view class='text'>
+  <text class='text_car'>添加爱车</text>
+  </view>
+</view>

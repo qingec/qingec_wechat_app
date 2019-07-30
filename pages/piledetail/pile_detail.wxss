@@ -1,0 +1,35 @@
+.charge_button> button:first-child{
+  font-size: 4vw;
+   height: 6vh;
+   width: 90vw;
+   line-height: 6vh;
+   text-align: center;
+   background-color: rgba(0, 0, 0, 0.5);
+   color: #fff;
+}
+
+.tab_pile_view{
+  padding: 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+  border-top: 1px solid rgba(0, 0, 0, 0.26);
+  border-bottom-right-radius: 0 0 10px rgba(0, 0, 0, 0.26);
+}
+
+.pile_cell_title{
+  font-size: 12px;
+}
+.pile_cell_value{
+  font-size: 10px;
+}
+.add_margin_view{
+  margin: 10px 0px;
+}
+.tab_pile_view_button{
+  text-align: center;
+}
+.pile_shoucang_no_img{
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+}

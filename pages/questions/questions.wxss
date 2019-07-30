@@ -1,0 +1,4 @@
+/* pages/questions/questions.wxss */
+van-row>view:first-child>van-col>view:first-child>van-tabs>view:first-child>view:first-child{
+  border-bottom: 1rpx solid rgb(0, 0, 0);
+}

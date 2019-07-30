@@ -1,0 +1,21 @@
+<!--pages/order/order.wxml-->
+<van-row class='order_row'>
+    <van-col span="24">
+      <van-tabs bind:click="onClick">
+       <van-tab title="全部订单">
+        <view style='text-align: center;color:rgba(164, 164, 168, 0.856);'>没有订单</view>
+       </van-tab>
+       <van-tab title="待支付">
+        <view style='text-align: center;color:rgba(164, 164, 168, 0.856);'>没有待支付的订单</view>
+       </van-tab>
+       <van-tab title="已支付">
+        <view style='text-align: center;color:rgba(164, 164, 168, 0.856);'>没有已支付的订单</view>
+       </van-tab>
+       <van-tab title="待评论">
+        <view style='text-align: center;color:rgba(164, 164, 168, 0.856);'>没有待评论的订单</view>
+       </van-tab>
+      </van-tabs>
+    </van-col>
+ 
+   
+</van-row>

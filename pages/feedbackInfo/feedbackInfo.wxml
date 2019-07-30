@@ -1,0 +1,21 @@
+<view class="feedback_msg_view">
+  <textarea class='feedback_msg_area' placeholder-class="feedback_msg_placeholder" placeholder="聆听您的声音。" maxlength="512"/>
+</view>
+<view class="feedback_tishi_view">
+   <van-field
+    value="{{ phone }}"
+    placeholder="请输联系方式"
+    border="{{ false }}"
+    label="联系方式:"
+  />
+</view>
+
+<view class="feedback_photo_view">
+  <view bindtap='open_photo' class='photo_img_view'>
+    <image class='feedback_photo_img' src='/image/xiangji.png'></image>
+  </view>
+</view>
+
+<view class='btn_view'>
+  <button class="btn_feedback">提交</button>
+</view>

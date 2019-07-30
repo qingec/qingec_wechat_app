@@ -1,0 +1,82 @@
+<view class='tab_pile_view'>
+<van-cell custom-class="tab_pile_cell" border="{{ false }}">
+      <view slot="title">
+        <view class="pile_cell_title">当前价格</view>
+      </view>
+      <view>
+        <view class="pile_cell_value">
+          <text style='font-size:12px;color:red'>1.2300</text>元/度（含服务费）</view>
+      </view>
+    </van-cell>
+<van-cell custom-class="tab_pile_cell" border="{{ false }}">
+ <view slot="title">
+        <view class="pile_cell_title">
+          <image class='pile_shoucang_no_img' src='/image/shoucang_no.png'></image>
+        </view>
+      </view>
+      <view>
+        <view class="pile_cell_value">电费0.9300元/度，服务费0.8000元/度</view>
+      </view>
+    </van-cell>
+
+    <van-cell custom-class="tab_pile_cell" is-link border="{{ false }}"
+    url="/pages/timeprice/timeprice" link-type="navigateTo"
+    >
+      <view>
+        <view class="pile_cell_value">18:00开始 1.6620元/度 价格详情</view>
+      </view>
+    </van-cell>
+</view>
+
+<view class='pile_cell_title tab_pile_view add_margin_view'>
+  停车 10元/时 （停车费为场地方收取，以现场实际收费为准）
+</view>
+
+<view class='tab_pile_view add_margin_view'>
+ <van-cell custom-class="tab_pile_cell" is-link border="{{ false }}">
+     <view slot="title">
+        <view class="pile_cell_title">使用情况</view>
+      </view>
+      <view>
+        <view class="pile_cell_value">
+          查看详情
+          </view>
+      </view>
+    </van-cell>
+</view>
+   
+   <view class='tab_pile_view add_margin_view'>
+    <van-cell custom-class="tab_pile_cell" is-link border="{{ false }}">
+     <view slot="title">
+        <view class="pile_cell_title">支付账户</view>
+      </view>
+      <view>
+        <view class="pile_cell_value">
+          个人账户
+          </view>
+      </view>
+    </van-cell>
+</view>
+
+   <view class='tab_pile_view add_margin_view'>
+    <van-cell custom-class="tab_pile_cell" is-link border="{{ false }}">
+     <view slot="title">
+        <view class="pile_cell_title">账户余额
+        <text style='color:bule'>0.00</text>元
+        </view>
+
+      </view>
+      <view>
+        <view class="pile_cell_value">
+          查看详情
+          </view>
+      </view>
+    </van-cell>
+</view>
+
+<view class='tab_pile_view_button'>
+<text class='pile_cell_value'>
+  终端离网，请选择其他终端充电。
+</text>
+<van-button  size="normal" class='charge_button'>立即充电</van-button>
+</view>

@@ -1,0 +1,12 @@
+/* pages/comment/comment.wxss */
+/* .a{
+  border-bottom:1rpx solid rgba(0, 0, 0, 0.26);
+} */
+
+
+.comments {
+  background-color:rgb(248, 248, 250);
+}
+.body {
+  padding: 10px;
+}

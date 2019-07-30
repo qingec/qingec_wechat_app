@@ -1,0 +1,19 @@
+<!--pages/records/records.wxml-->
+<import src ="/template/template.wxml"/>
+<van-row>
+    <van-col span="24">
+      <van-tabs bind:click="onClick">
+       <van-tab title="充电站">
+        <!-- 充电站 -->
+        <template is="tab_station_list"/>
+       </van-tab>
+
+       <van-tab title="充电终端">
+        <!--充电终端 -->
+        <template is="tab_pile_detail_list"/>
+       </van-tab>
+      </van-tabs>
+    </van-col>
+ 
+   
+</van-row>

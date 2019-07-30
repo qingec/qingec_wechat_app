@@ -1,0 +1,29 @@
+<!--pages/feedback/feedback.wxml-->
+<van-row>
+  <van-col span='17'>
+    <view style='color: #1989fa' class='edit_view'  >
+      <text hidden='{{edit}}'  bindtap='edit_text'>编辑</text>
+      <text hidden='{{del}}'  bindtap='delete_text'>删除</text>
+    </view>
+  </van-col>
+
+  <van-col span='6'>
+    <van-button type="info" bind:click="to_feedback_info" size="mini" style='float: right;padding-bottom:5rpx;'>去反馈</van-button>
+  </van-col>
+</van-row>
+
+<van-row>
+  <view class='feedbacks'> 
+    <view class='body'>
+      <view class='info_view'>
+        没有更多了>>
+      </view>
+    </view>
+  </view>
+</van-row>
+
+<van-row class='feedback_row'>
+  <view class='feedback_delete' hidden='{{del}}'>
+    <van-button type="info" class='delete'>删除</van-button>
+  </view>
+</van-row>

@@ -1,0 +1,11 @@
+<view class='login_btn'>
+<van-button type="primary" custom-class="div_body_button_login" size="normal"
+bind:getphonenumber="getPhoneNumber" open-type="getPhoneNumber">微信用户快速登录</van-button>
+</view>
+
+<view class='login_btn'>
+<van-button type="info" bind:click="to_login" custom-class="div_body_button_login" size="normal">输入手机号注册登录
+</van-button>
+</view>
+
+
